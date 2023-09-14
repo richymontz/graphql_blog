@@ -69,7 +69,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "rspec-rails", "~> 6.0"
 end
 
 gem "graphql", "~> 2.1"
 gem "graphiql-rails", github: 'rmosolgo/graphiql-rails', group: :development
+
+
