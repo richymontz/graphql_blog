@@ -46,14 +46,16 @@ RSpec.describe 'Mutation Register' do
             $dateOfBirth: String
           ){
             register(
-              accountRole: $accountRole,
-              firstName: $firstName,
-              lastName: $lastName,
-              zipcode: $zipcode,
-              address: $address,
-              email: $email,
-              password: $password,
-              dateOfBirth: $dateOfBirth
+              input: {
+                accountRole: $accountRole,
+                firstName: $firstName,
+                lastName: $lastName,
+                zipcode: $zipcode,
+                address: $address,
+                email: $email,
+                password: $password,
+                dateOfBirth: $dateOfBirth
+              }
             ){
               email
               token
