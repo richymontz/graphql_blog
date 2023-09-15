@@ -72,12 +72,8 @@ group :test do
   gem "rspec-rails", "~> 6.0"
   gem "factory_bot_rails", "~> 6.2"
   gem "faker", "~> 3.2"
+  gem "database_cleaner", "~> 2.0"
 end
 
 gem "graphql", "~> 2.1"
 gem "graphiql-rails", github: 'rmosolgo/graphiql-rails', group: :development
-
-
-
-
-
